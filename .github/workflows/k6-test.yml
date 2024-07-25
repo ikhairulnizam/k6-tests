@@ -20,5 +20,4 @@ jobs:
         rm -rf k6-v0.42.0-linux-amd64 k6-v0.42.0-linux-amd64.tar.gz
 
     - name: Run k6 test
-      run: |
-        k6 run k6-tests/script.js
+      run: k6 run k6-tests/script.js
